@@ -20,6 +20,7 @@ nav {
 
 header {
     width: 100%;
+
 }
 
 .navbar {
@@ -30,22 +31,23 @@ header {
     align-items: center;
     padding-left: 10.5rem;
     padding-right: 10rem;
-    margin-top: 2rem;
     margin-bottom: 2rem;
+    border: solid black 1px;
 }
 
 .logo {
-    width: 100%;
-    height: 100%;
     display: flex;
+    padding: 1rem;
     justify-content: start;
     align-items: center;
     cursor: pointer;
+    border: solid 1px;
 }
 
 .logo img {
     width: 8rem;
     height: 2rem;
+    border: solid black 1px;
 }
 
 .logo img:hover {
@@ -54,8 +56,8 @@ header {
 
 .logo h1 {
     width: 100%;
-    height: 100%;
-    font-size: 3.5rem;
+    /* height: 100%; */
+    /* font-size: 3.5rem; */
 }
 
 .hamburger {
@@ -65,6 +67,7 @@ header {
     justify-content: end;
     align-items: center;
     padding-right: 3rem;
+    border: solid 1px;
 }
 
 .ham {
@@ -74,11 +77,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 1px black;
 }
 
 .hamburger svg {
     width: 2rem;
-    height: 2rem;
+    height: 1rem;
     cursor: pointer;
 }
 
@@ -93,6 +97,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 1px hotpink;
 }
 
 .whole-caro {
@@ -292,8 +297,8 @@ header {
     }
 
     .hamburger svg {
-        width: 6rem;
-        height: 6rem;
+        width: 3.5rem;
+        height: 4.5rem;
     }
 
     #caroo {
@@ -345,92 +350,7 @@ header {
         padding-left: 3rem;
     }
 
-    .whole-para{
-        /* padding-top: 3rem; */
-        margin-bottom: 3rem;
-        height: 100%;
-        padding-left: 0;
-    }
 
-
-    .left{
-        font-size: 25px;
-        width: 100%;
-    }
-    .right{
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        height: 100%;
-        width: 70%;
-        padding-bottom: 8rem;
-        padding-top: 1rem;
-    }
-
-    .svgs{
-        width: 100%;
-        height: 100%;
-    }
-
-    .svgs svg{
-        width: 55px;
-        height: 55px;
-    }
-
-    .container {
-        width: 90%;
-        height: 100%;
-        margin-top: 1rem;
-    }
-
-    .cards{
-        height: 300px;
-    }
-
-    .card {
-        width: 300px;
-        height: 300px;
-    }
-
-    .card-head {
-        width: 100%;
-        height: 50%;
-    }
-
-    .card-head svg {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .card-head h3 {
-        font-size: 21px;
-    }
-
-    .buttons {
-        height: 40px;
-        width: 15rem;
-    }
-
-    .links {
-        width: 100%;
-        height: 50%;
-        gap: 0.5rem;
-    }
-
-    .links svg {
-        width: 35px;
-        height: 35px;
-    }
-
-
-    .buttons p {
-        font-size: 12px;
-        color: white;
-    }
-
-    .right img {
-        margin: 0.5rem;
-    }
 }
 
 @media (1001px <=width <= 1200px) {
@@ -700,4 +620,27 @@ header {
     }
 
 
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+    flex-wrap: wrap;
+    border: solid 1px;
+}
+
+.text{
+    font-size: 16px;
+    border: solid 1px black;
+    font-size: 18px;
+    text-wrap: wrap;
+    width: 50%;
+    padding: 18px;
+}
+
+.image{
+    border: solid 1px black;
 }
